@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Thanh Hoa",
     scale: "C",
   },
   clock: {
@@ -17,25 +17,8 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      background_url: "src/img/banners/3.gif",
       categories: [
-        {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
         {
           name: "workspace",
           links: [
@@ -46,13 +29,7 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
+              name: "Doc",
               url: "https://docs.google.com/spreadsheets",
               icon: "table",
               icon_color: palette.red,
@@ -66,211 +43,134 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "Social",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "Messenger",
+              url: "https://www.messenger.com/",
+              icon: "brand-messenger",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "Wiki News",
+              url: "https://en.wikinews.org/wiki/Main_Page",
+              icon: "brand-wikipedia",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "Zalo",
+              url: "https://chat.zalo.me/",
+              icon: "letter-z",
               icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      name: "work",
+      background_url: "src/img/banners/4.gif",
       categories: [
         {
           name: "resources",
           links: [
             {
-              name: "github",
+              name: "Github",
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
+              name: "FMHY",
+              url: "https://fmhy.net/",
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
-            {
-              name: "wakatime",
-              url: "https://wakatime.com",
-              icon: "24-hours",
-              icon_color: palette.red,
-            },
           ],
         },
         {
-          name: "challenges",
+          name: "school",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "MS Teams",
+              url: "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&scope=openId%20profile%20openid%20offline_access&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fv2&client-request-id=0192fb3f-1237-744e-a9b3-46ff4bd95781&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.18.0&client_info=1&code_challenge=7mKqDpZdultsJae_QJdVImim8UZkeWr55xQ0w2i3pHc&code_challenge_method=S256&nonce=0192fb3f-1239-7667-9291-9ba3399ad0a4&state=eyJpZCI6IjAxOTJmYjNmLTEyMzktNzMwOC05ZjkwLWZlY2Q4ZDcxYmYxZCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D",
+              icon: "brand-teams",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "School Page",
+              url: "https://sv.isvnu.vn/sinh-vien-dang-nhap.html",
+              icon: "school",
               icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "blogs",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
-              icon_color: palette.blue,
             },
           ],
         },
       ],
     },
     {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
+      name: "relax",
+      background_url: "src/img/banners/1.gif",
       categories: [
         {
-          name: "social medias",
+          name: "Games Related",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "MD Meta",
+              url: "https://www.masterduelmeta.com/",
+              icon: "cards",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "Prydwen",
+              url: "https://www.prydwen.gg/re1999/",
+              icon: "packages",
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "games",
-          links: [
-            {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
-              name: "steam",
-              url: "https://store.steampowered.com",
+              name: "Steam",
+              url: "https://store.steampowered.com/",
               icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "video",
+          name: "Fun Stuff",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "Monkey Type",
+              url: "https://monkeytype.com/",
+              icon: "keyboard",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
+              name: "Pokemon Showdown",
+              url: "https://play.pokemonshowdown.com/",
+              icon: "pokeball",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
+          name: "Brain Rot",
+          links: [
+            {
+              name: "Twitch",
+              url: "https://www.twitch.tv/",
+              icon: "brand-twitch",
+              icon_color: palette.green,
+            },
+            {
+              name: "Youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "Reddit",
+              url: "https://www.reddit.com/",
+              icon: "brand-reddit",
               icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
