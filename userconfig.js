@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://www.google.com/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -148,6 +148,12 @@ const default_config = {
               url: "https://play.pokemonshowdown.com/",
               icon: "pokeball",
               icon_color: palette.peach,
+            },
+            {
+              name: "Sand Physics",
+              url: "https://sandboxels.r74n.com/",
+              icon: "sandbox",
+              icon_color: palette.yellow,
             },
           ],
         },
