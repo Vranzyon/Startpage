@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://youtu.be/dQw4w9WgXcQ?si=fstO5_9cJmofjaK0",
+  fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -31,7 +31,7 @@ const default_config = {
             {
               name: "Doc",
               url: "https://docs.google.com/spreadsheets",
-              icon: "table",https://en.wikipedia.org/wiki/Portal:Current_events
+              icon: "table",
               icon_color: palette.red,
             },
             {
@@ -53,7 +53,7 @@ const default_config = {
             },
             {
               name: "Wiki News",
-              url: "https://en.wikipedia.org/wiki/Portal:Current_events",
+              url: "https://en.wikinews.org/wiki/Main_Page",
               icon: "brand-wikipedia",
               icon_color: palette.peach,
             },
@@ -150,10 +150,10 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "Sand Physics",
+              name: "Sand Physics"
               url: "https://sandboxels.r74n.com/",
-              icon: "Sandbox",
-              icon_color: palette.peach,
+              icon: "sandbox",
+              icon_color: palette.yellow,
             },
           ],
         },
