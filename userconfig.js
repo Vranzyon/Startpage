@@ -149,12 +149,6 @@ const default_config = {
               icon: "pokeball",
               icon_color: palette.peach,
             },
-            {
-              name: "Sand Physics"
-              url: "https://sandboxels.r74n.com/",
-              icon: "sandbox",
-              icon_color: palette.yellow,
-            },
           ],
         },
         {
