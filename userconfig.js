@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://youtu.be/dQw4w9WgXcQ?si=fstO5_9cJmofjaK0",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -31,7 +31,7 @@ const default_config = {
             {
               name: "Doc",
               url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              icon: "table",https://en.wikipedia.org/wiki/Portal:Current_events
               icon_color: palette.red,
             },
             {
@@ -53,7 +53,7 @@ const default_config = {
             },
             {
               name: "Wiki News",
-              url: "https://en.wikinews.org/wiki/Main_Page",
+              url: "https://en.wikipedia.org/wiki/Portal:Current_events",
               icon: "brand-wikipedia",
               icon_color: palette.peach,
             },
@@ -147,6 +147,12 @@ const default_config = {
               name: "Pokemon Showdown",
               url: "https://play.pokemonshowdown.com/",
               icon: "pokeball",
+              icon_color: palette.peach,
+            },
+            {
+              name: "Sand Physics",
+              url: "https://sandboxels.r74n.com/",
+              icon: "Sandbox",
               icon_color: palette.peach,
             },
           ],
