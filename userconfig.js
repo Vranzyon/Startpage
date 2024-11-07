@@ -153,7 +153,7 @@ const default_config = {
               name: "Sand Physics",
               url: "https://sandboxels.r74n.com/",
               icon: "sandbox",
-              icon_color: palette.yellow,
+              icon_color: palette.red,
             },
           ],
         },
